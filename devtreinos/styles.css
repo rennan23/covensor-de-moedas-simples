@@ -1,0 +1,106 @@
+*{ margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   font-family: "Roboto", sans-Serif;
+
+
+}
+
+
+body{
+
+    background-color: #8A51FC; 
+ 
+}
+.logo{
+
+    width:300px;
+    display: block;
+    margin: 20px auto;
+
+
+}
+header{
+    width:375px ; 
+    background-color:white ;
+    border-radius:20px ;
+    margin-left:40%;
+    padding:44px 24px 23px ;
+    margin-bottom:30px ;
+}   
+label{
+    color:#777777;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+select{
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    height:48px;
+    width:100% ;
+    margin-bottom:24px ;
+    appearance: none;
+    padding-left:18px ;
+    font-weight: 700;
+    font-size:18px ;
+    color: #555;
+}
+input{border-radius: 4px;
+      border: none;
+     background: #FFF;
+     box-shadow: 2px 2px 5px 0px;
+     width: 327px;
+     height: 48px;
+    border:1px solid #BBB ;
+}
+.convert-button{
+    width: 327px;
+    height: 48px;
+    border-radius:5px ;
+    border:none;
+    background:#772FD3 ;
+    margin: 23px 0 36px ;
+    color:white;
+    cursor: pointer;
+}
+button:active{
+    opacity:0.5;
+}
+
+section{
+    border-radius: 20px;
+    border:1px solid #772fd3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:18px ;
+    padding-bottom:10px;
+
+}
+.currency-logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.logo2{
+    margin: 15px 0;
+
+}
+.curry{
+    color: #777;
+    font-size: 14px;
+
+
+
+}
+.currency-value, .value-to-convert{
+    font-size: 20px;
+    color: #555;
+
+}
+
+
+   
